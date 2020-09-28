@@ -24,7 +24,7 @@ export default {
     },
     setup(){
         let list = ref(data)
-        return {list}
+        return { list }
     },
     mounted(){
         console.log(data);
